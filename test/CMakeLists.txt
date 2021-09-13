@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10.2)
 
-set(PROJECT_TEST_SRCS runner.cpp test_cases.cpp)
+set(PROJECT_TEST_SRCS sensor_receiver_tests.cpp sensor_zone_tests.cpp memory_tests.cpp ux_tests.cpp manager_tests)
 
 include(GoogleTest)
 include(CTest)

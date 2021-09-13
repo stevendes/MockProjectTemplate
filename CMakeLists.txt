@@ -52,7 +52,12 @@ include(cmake/compiler_options.cmake)
 # ---------------
 
 add_library(${PROJECT_NAME}
-  src/Timer.cpp)
+  src/Timer.cpp
+  src/memory.cpp
+  src/sensor_receiver.cpp
+  src/sensor_zone.cpp
+  src/manager.cpp
+  src/ux.cpp)
 
 set_target_compiler_options(${PROJECT_NAME})
 
